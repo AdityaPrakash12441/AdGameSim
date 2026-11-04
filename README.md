@@ -220,3 +220,21 @@ Department of Computer Science & Engineering — V Semester Course Project
 3. **Edelman, B., Ostrovsky, M., and Schwarz, M. (2007).** *Internet Advertising and the Generalized Second-Price Auction: Selling Billions of Dollars Worth of Keywords.* American Economic Review, 97(1), 242–259.
 4. **Dixit, A. and Nalebuff, B. (1991).** *Thinking Strategically: The Competitive Edge in Business, Politics, and Everyday Life.* W. W. Norton & Company.
 5. **d'Aspremont, C., Gabszewicz, J. J., and Thisse, J.-F. (1979).** *On Hotelling's "Stability in Competition".* Econometrica, 47(5), 1145–1150.
+
+## Deploying to GitHub Pages
+
+This project is configured to deploy automatically with GitHub Actions.
+
+1. Create a GitHub repository and push this project to its `main` branch.
+2. In the repository, open **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. Push a commit to `main`, or run **Deploy to GitHub Pages** manually from the repository's **Actions** tab.
+5. After the workflow finishes, open the URL shown in the `github-pages` environment.
+
+For a repository named `my-project` under the account `your-username`, the URL will usually be:
+
+```text
+https://your-username.github.io/my-project/
+```
+
+The workflow is in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).

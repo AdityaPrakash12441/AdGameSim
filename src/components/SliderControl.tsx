@@ -96,3 +96,4 @@ export const SliderControl: React.FC<SliderControlProps> = ({
     </div>
   );
 };
+

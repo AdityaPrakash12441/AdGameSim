@@ -197,3 +197,4 @@ export const MathExplanation: React.FC<MathExplanationProps> = ({
     </section>
   );
 };
+

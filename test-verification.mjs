@@ -98,3 +98,4 @@ console.log(`Hotelling dynamic rounds: ${hotellingDyn.length}`);
 hotellingDyn.forEach((r) => console.log(`Step ${r.round} (${r.actingBrand}): PosA=${r.positionA.toFixed(2)}, PosB=${r.positionB.toFixed(2)}, ShareA=${r.shareA.toFixed(1)}%`));
 
 console.log('\nALL MATHEMATICAL CHECKS PASSED SUCCESSFULLY!');
+

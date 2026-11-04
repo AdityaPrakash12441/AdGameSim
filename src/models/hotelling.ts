@@ -309,3 +309,4 @@ export function simulateHotellingDynamics(
 
   return history;
 }
+
